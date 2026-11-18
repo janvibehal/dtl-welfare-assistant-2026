@@ -134,6 +134,7 @@ The sample claim objects contain fields such as:
 All sample names, IDs, amounts, and claim records are synthetic. The
 values must not be interpreted as actual employee or claim information.
 
+
 ## 8. Architecture
 
 Current implementation:
