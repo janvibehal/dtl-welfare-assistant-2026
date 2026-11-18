@@ -52,15 +52,24 @@ button {
 }
 
 .brand-logo {
-  background: white;
-  color: #16385f;
-  font-size: 17px;
-  font-weight: 800;
-  width: 44px;
-  height: 44px;
-  border-radius: 7px;
-  display: grid;
-  place-items: center;
+  width: 55px;
+  height: 55px;
+  min-width: 55px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .brand h3 {

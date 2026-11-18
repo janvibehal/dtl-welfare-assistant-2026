@@ -383,9 +383,11 @@ function App() {
 
       <aside className={`sidebar ${sidebarOpen ? "sidebar-open" : ""}`}>
         <div className="brand">
-          <div className="brand-logo">DTL</div>
+          <div className="brand-logo">
+            <img src="./dtl-logo.png" alt="DTL Logo" />
+          </div>
           <div>
-            <h3>Delhi Transco</h3>
+            <h3>Delhi Transco Limited</h3>
             <span>Welfare Monitoring</span>
           </div>
           <button
@@ -425,7 +427,7 @@ function App() {
         <div className="sidebar-bottom">
           <div className="secure-label">
             <ShieldCheck size={17}/>
-            <span>Standalone Demo System</span>
+            <span>Prototype Demo System</span>
           </div>
           <p>DTL Welfare Management<br/>Prototype v1.0</p>
         </div>
