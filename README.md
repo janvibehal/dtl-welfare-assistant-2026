@@ -13,11 +13,9 @@ and analytics.
 ## 1. Problem Context
 
 The project was shaped by an internship-based study of welfare-claim
-workflows. The scope was deliberately narrowed after understanding that
-welfare claim processing and claim-status checking already exist in the
-organisation's SAP-based ERP environment.
+workflows.
 
-Rather than duplicate those capabilities, this prototype focuses on
+Rather than duplicate capabilities, this prototype focuses on
 **approval monitoring**: making pending claims, current approval stages,
 elapsed time, and overdue items easier to review.
 
@@ -186,25 +184,8 @@ authentication service, or SAP integration.
 -   Exportable analytics and reports.
 -   Stakeholder review, security assessment, and usability testing.
 
-## 11. Screenshots
 
-Add screenshots of the running application here:
-
--   Overview dashboard
--   Role selector / role-specific view
--   Claim details and approval history
--   Return-for-correction flow
--   Finance completion
--   Analytics and overdue claims
-
-Suggested folder:
-
-``` text
-docs/
-└── screenshots/
-```
-
-## 12. Disclaimer
+## 11. Disclaimer
 
 This project is an academic/internship demonstration prototype. It is
 not an official DTL application, is not endorsed as a production system,
@@ -212,12 +193,3 @@ and is not integrated with DTL's SAP ERP. Do not upload confidential
 organisational information, real employee details, medical documents,
 credentials, or internal screenshots to this repository without explicit
 authorisation.
-
-## 13. Author
-
-**\[Your Name\]**\
-B.Tech, Computer Science and Engineering\
-Indira Gandhi Delhi Technical University for Women
-
-**Internship Organisation:** Delhi Transco Limited (DTL)\
-**Internship Period:** \[Start Date\] -- \[End Date\]
