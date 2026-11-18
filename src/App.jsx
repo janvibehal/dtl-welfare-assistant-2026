@@ -413,6 +413,7 @@ function App() {
                   setSearch("");
                   setTypeFilter("All");
                   setStatusFilter("All");
+                  
                 }}
               >
                 <Icon size={19}/>
